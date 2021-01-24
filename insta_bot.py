@@ -19,7 +19,7 @@ class InstagramBot:
 
     def likePosts(self):
         self.baseURL='https://www.instagram.com/explore/tags/'
-        self.tags=['crypto']
+        self.tags=['**List of Tags to like**']
         for tag in self.tags:
             tagURL='https://www.instagram.com/explore/tags/{}'.format(str(tag))
             time.sleep(5)
